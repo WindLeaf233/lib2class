@@ -1,4 +1,3 @@
-from asyncio import ensure_future
 from io import BufferedReader, BufferedWriter
 from typing import Any, Dict, List, Union
 from docx import Document
