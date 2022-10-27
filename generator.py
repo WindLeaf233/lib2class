@@ -43,10 +43,10 @@ def main(year: int) -> None:
                     if num:
                         number: str = num.group()
                         removed: str = text.replace(number, '')
-                        temp.append({ removed: None })
+                        temp.append({ 'question': removed })
                     elif ans:
                         answer: str = ans.group().split('：')[-1]
-                        temp[-1][[t for t in temp[-1].keys()][0]] = answer
+                        temp[-1]['answer'] = answer
             result[name] = temp
             log(f'({name}) 成功加载 {temp.__len__()} 个题目!', color='green')
         else:
