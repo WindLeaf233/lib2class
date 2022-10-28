@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         lib2class
 // @namespace    http://tampermonkey.net/
-// @version      2022.2
+// @version      2022.3
 // @description  青骄第二课堂题库 (长期更新)
 // @author       WindLeaf233
 // @grant        none
@@ -9,7 +9,8 @@
 
 const libs = {
   "supportedFinal": {
-    "高二": "finalg2"
+    "高二": "finalg2",
+    "中职二": "finalg2"
   },
   "finalg2": [
     {
