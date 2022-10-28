@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         lib2class
 // @namespace    http://tampermonkey.net/
-// @version      2022.1
+// @version      2022.2
 // @description  青骄第二课堂题库 (长期更新)
 // @author       WindLeaf233
 // @grant        none
