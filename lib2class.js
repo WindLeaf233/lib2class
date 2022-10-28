@@ -8,6 +8,9 @@
 // ==/UserScript==
 
 const libs = {
+  "supportedFinal": {
+    "高二": "finalg2"
+  },
   "finalg2": [
     {
       "question": "大麻的滥用者在中国主要集中在。（）",
